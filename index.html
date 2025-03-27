@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./css/main.css">    
+    <title>Monticello</title>
+</head>
+<body>
+    <header class="header">        
+        <div class="header__flex">
+           <div class="logo">
+                <a href="#" class="logo__link">
+                    <img src="./assets/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <nav class="nav">     
+                <input type="checkbox" class="nav__burger burger" id="nav-burger">
+                <label for="nav-burger" class="burger__img"></label>            
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#hero" class="menu__link ">ABOUT US</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#projects" class="menu__link">PROJECTS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#news" class="menu__link">NEWS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contact" class="menu__link">CONTACT</a>
+                    </li>            
+                </ul>
+            </nav>
+            <ul class="socio">
+                <li class="'socio_item">
+                    <a href="https://www.facebook.com/"  target="_blank" >
+                        <svg  width="40" height="40" aria-hidden="true" class="socio__link">
+                            <use href="./assets/img/symbol-defs.svg#icon-fb" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="'socio_item">
+                    <a href="https://x.com/"  target="_blank" >
+                        <svg  width="40" height="40" aria-hidden="true" class="socio__link">
+                            <use href="./assets/img/symbol-defs.svg#icon-tvit" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="'socio_item">
+                    <a href="https://www.instagram.com/"  target="_blank" >
+                        <svg  width="40" height="40" aria-hidden="true" class="socio__link">
+                            <use href="./assets/img/symbol-defs.svg#icon-inst" ></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>               
+        </div>         
+    </header>
+    <main class="main">
+        <section class="hero" id="hero">                
+            <h1 class="hero__title ">SIMPLE & MODERN</h1>
+            <p class="hero__text">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+            <a href="#projects" class="hero__btn">
+                <svg  width="40" height="40" aria-hidden="true" class="hero__btn-icon">
+                    <use href="./assets/img/symbol-defs.svg#icon-arrow_down" ></use>
+                </svg>
+            </a>                                             
+        </section>
+        <section class="slider__hero">
+            <h2 class="slider__hero-title">slider hero</h2>
+            <div class="slide__hero slide_background">                                
+                <img src="./assets/img/hero.png" alt="" class="slide__hero-img">
+            </div>
+            <div class="slide__hero">                
+                <img src="./assets/img/footer-pc.png" alt="" class="slide__hero-img">
+            </div>
+            <div class="slide__hero">                
+                <img src="./assets/img/hero.png" alt="" class="slide__hero-img">
+            </div>
+            <div class="slide__hero">                
+                <img src="./assets/img/footer-pc.png" alt="" class="slide__hero-img">
+            </div>
+            <div class="slide__hero">                
+                <img src="./assets/img/hero.png" alt="" class="slide__hero-img">
+            </div>            
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="projects__title">WHAT WE DO</h2>
+            <div class="projects__box">
+                <div class="projects__img"></div>
+                <div class="projects__text">
+                    <h3 class="projects__text-subtitle">ONE WORLD</h3>
+                    <h2 class="projects__text-title">TRADE CENTER</h2>
+                    <p class="projects__text-content">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                    <button type="button" class="btn">MORE DETAILS</button>
+                    <span class="projects__location"> 
+                        <svg  width="9" height="17" aria-hidden="true">
+                            <use href="./assets/img/symbol-defs.svg#icon-location" ></use>
+                        </svg>
+                        New York City, United States - 1776 feet 
+                    </span>
+                </div>
+            </div>
+            <div class="projects__box projects__box-revers">                
+                <div class="projects__text">
+                    <h3 class="projects__text-subtitle">INTERNATIONAL</h3>
+                    <h2 class="projects__text-title">COMMERCE CENTRE</h2>
+                    <p class="projects__text-content">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+                    <button type="button" class="btn">MORE DETAILS</button>
+                    <span class="projects__location"> 
+                        <svg  width="9" height="17" aria-hidden="true">
+                            <use href="./assets/img/symbol-defs.svg#icon-location" ></use>
+                        </svg>
+                        Hong Kong - 1588 feet 
+                    </span>
+                </div>
+                <div class="projects__img1"></div>
+            </div>
+        </section>
+        <section class="news news__bg" id="news">            
+            <h2 class="news__title">LATEST NEWS</h2>
+            <div class="slider__news">                   
+                <div class="card slide__new">
+                    <img src="./assets/img/new1.png" alt="foto" class="card__img">
+                    <div class="card__content">
+                        <h2 class="card__content-title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h2>
+                        <p class="card__content-text">Free directories: directories are perfect for customers that are searching for...</p>
+                        <div class="card__content-flex">
+                            <div class="card__content-avatar">
+                                <img src="./assets/img/photos-1.png" alt="avatar" class="card__content-avatar-img">
+                            </div>
+                            <div class="card__content-name">
+                                <p class="card__content-name-title">ALJA BRUN</p>
+                                <p class="card__content-name-subtitle">20 Jan 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card slide__new">
+                    <img src="./assets/img/new2.png" alt="foto" class="card__img">
+                    <div class="card__content">
+                        <h2 class="card__content-title">EFFECTIVE ADVERTISING POINTERS.</h2>
+                        <p class="card__content-text">Having a home based business is a wonderful asset to your life...</p>
+                        <div class="card__content-flex">
+                            <div class="card__content-avatar">
+                                <img src="./assets/img/photos-2.png" alt="avatar" class="card__content-avatar-img">
+                            </div>
+                            <div class="card__content-name">
+                                <p class="card__content-name-title">DOMINIC FREEMAN</p>
+                                <p class="card__content-name-subtitle">13 Dec 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card slide__new">
+                    <img src="./assets/img/new3.png" alt="foto" class="card__img">
+                    <div class="card__content">
+                        <h2 class="card__content-title">HYPNOTIZE YOURSELF INTO THE GHOST.</h2>
+                        <p class="card__content-text">There are many things that are important to catalog design...</p>
+                        <div class="card__content-flex">
+                            <div class="card__content-avatar">
+                                <img src="./assets/img/photos-3.png" alt="avatar" class="card__content-avatar-img">
+                            </div>
+                            <div class="card__content-name">
+                                <p class="card__content-name-title">ALICE WARD</p>
+                                <p class="card__content-name-subtitle">30 Nov 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card slide__new">
+                    <img src="./assets/img/new1.png" alt="foto" class="card__img">
+                    <div class="card__content">
+                        <h2 class="card__content-title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h2>
+                        <p class="card__content-text">Free directories: directories are perfect for customers that are searching for...</p>
+                        <div class="card__content-flex">
+                            <div class="card__content-avatar">
+                                <img src="./assets/img/photos-1.png" alt="avatar" class="card__content-avatar-img">
+                            </div>
+                            <div class="card__content-name">
+                                <p class="card__content-name-title">ALJA BRUN</p>
+                                <p class="card__content-name-subtitle">20 Jan 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card slide__new">
+                    <img src="./assets/img/new1.png" alt="foto" class="card__img">
+                    <div class="card__content">
+                        <h2 class="card__content-title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h2>
+                        <p class="card__content-text">Free directories: directories are perfect for customers that are searching for...</p>
+                        <div class="card__content-flex">
+                            <div class="card__content-avatar">
+                                <img src="./assets/img/photos-1.png" alt="avatar" class="card__content-avatar-img">
+                            </div>
+                            <div class="card__content-name">
+                                <p class="card__content-name-title">ALJA BRUN</p>
+                                <p class="card__content-name-subtitle">20 Jan 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                     
+            </div>                                
+        </section>        
+        <section class="gallerys">
+            <h2 class="gallerys__title">GALLERY</h2>           
+            <div class="lightbox-gallery gallery ">
+                <div class="g-item_full"><img  class="gr-item-img" src="./assets/img/Image1.png" data-image-hd="./assets/img/Image1.png" alt="image1"></div>
+                <div><img  class="gr-item-img" src="./assets/img/Image2.png" data-image-hd="./assets/img/Image2.png" alt="image2"></div>
+                <div><img class="gr-item-img" src="./assets/img/Image3.png" data-image-hd="./assets/img/Image3.png" alt="image3"></div>
+                <div><img  class="gr-item-img" src="./assets/img/Image4.png" data-image-hd="./assets/img/Image4.png" alt="image4"></div>
+                <div><img  class="gr-item-img" src="./assets/img/Image5.png" data-image-hd="./assets/img/Image5.png" alt="image5"></div>          
+            </div>            
+            <div class="gallerys__btn">
+                <button type="button" class="btn gallerys__btn">SEE MORE</button>
+            </div>                     
+        </section>
+        <section class="map">
+            <h2 class="map__title">map</h2>
+            <div id="googleMap" style="width:100%;height: 700px;"></div>
+        </section>           
+    </main>
+    <footer class="footer">              
+        <div class="logo">
+            <a href="#" class="logo__link">
+                <img src="./assets/img/logo.png" alt="logo">
+            </a>
+            <p class="footer__copyrights">Copyrights © 2020 Montichello</p>
+        </div>
+        <div class="footer__bg"></div>               
+        <ul class="socio footer__socio">
+            <li class="'socio_item">
+                <a href="https://www.facebook.com/"  target="_blank" >
+                    <svg  width="40" height="40" aria-hidden="true" class="socio__link">
+                        <use href="./assets/img/symbol-defs.svg#icon-fb" ></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="'socio_item">
+                <a href="https://x.com/"  target="_blank">
+                    <svg  width="40" height="40" aria-hidden="true" class="socio__link">
+                        <use href="./assets/img/symbol-defs.svg#icon-tvit" ></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="'socio_item">
+                <a href="https://www.instagram.com/"  target="_blank">
+                    <svg  width="40" height="40" aria-hidden="true" class="socio__link">
+                        <use href="./assets/img/symbol-defs.svg#icon-inst" ></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>              
+        <section class="contact" id="contact">
+            <h2 class="contact__title">GET IN TOUCH</h2>
+            <div class="contact__flex">
+                <ul class="contact__adress">
+                    <li><p>91 Nolan Extensions Suite 670</p></li>
+                    <li><p>+001 356-868-2454</p></li>
+                    <li><p>montichello@service.com</p></li>
+                    <li><p>From 07:05AM to 19:30PM</p></li>
+                </ul>
+                <form action="URL" class="form contact__form">
+                    <input class="form contact__form-input" type="text" name="name"  placeholder="Mollie Medina" required>
+                    <input class="form contact__form-input" type="email" name="email"  placeholder="Email" required>
+                    <div class="contact__form-btn"><button class="btn" type="submit">SUBMIT</button></div>
+                </form>
+            </div>
+        </section>       
+    </footer> 
+    <script src="./js/jquery.min.js"></script>   
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>  
+    <script src="./js/sliders.js"></script>
+    <script src="./js/gallery.js"></script>       
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgQX60S02MYn-8QAGA9Cj5Z8gahkbRo5E&callback=myMap"></script>
+    <script src="./js/map.js"></script>
+    <script src="./js/main.js"></script> 
+</body>
+</html>
